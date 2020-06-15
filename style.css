@@ -1,0 +1,81 @@
+body {font-family: arial;
+text-align: center;
+background: lightpink;}
+
+h1 {
+	font-size: 34px;
+	color: blue;
+	font-family: arial;
+}
+h1, h2, h3 {color: blue;}
+
+
+
+h4, ul {text-align: left;}
+
+.production {width:300px; height:150px; object-fit: cover;}
+
+.cadre {background: #FADEB9; margin: 100px; padding:50px; border: 5px solid orange; border-radius: 5px;}
+
+.btn-pink {
+	border: 3px solid white;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	margin: 15px;
+	background: #C86573;
+	box-shadow: 5px 5px 10px grey;
+	padding: 15px;
+	text-decoration: none;
+
+}
+
+.btn-pink:hover {
+	background: pink;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E2F3DC;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+
+
