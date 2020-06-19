@@ -1,13 +1,14 @@
 body {font-family: arial;
 text-align: center;
-background: lightpink;}
+background: #eb6383;}
+
 
 h1 {
 	font-size: 34px;
-	color: blue;
-	font-family: arial;
+	color: #fa9191;
+	font-family: 'Lobster Two', cursive;
 }
-h1, h2, h3 {color: blue;}
+h1, h2, h3 {color: #fa9191;}
 
 
 
@@ -15,30 +16,37 @@ h4, ul {text-align: left;}
 
 .production {width:300px; height:150px; object-fit: cover;}
 
-.cadre {background: #FADEB9; margin: 100px; padding:50px; border: 5px solid orange; border-radius: 5px;}
+.cadre {background: #ffe9c5; 
+	margin: 100px; 
+	padding:50px; 
+	border: 5px solid ; 
+	border-radius: 5px; 
+	border-width: 15px ;
+    border-color: #fa9191;
+}
 
-.btn-pink {
+.my-btn {
 	border: 3px solid white;
 	border-radius: 5px;
-	color: white;
+	color: #fa9191;
 	display: inline-block;
 	margin: 15px;
-	background: #C86573;
+	background: #b4f2e1;
 	box-shadow: 5px 5px 10px grey;
 	padding: 15px;
 	text-decoration: none;
-
 }
 
-.btn-pink:hover {
+.my-btn:hover {
 	background: pink;
+	color : #b4f2e1;
 }
 
-.navbar {
+.my-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #E2F3DC;
+  background: #ffe9c5;
 }
 
 .links {
@@ -48,11 +56,11 @@ h4, ul {text-align: left;}
 
 .link {
   margin: 10px 30px;
-  color: #9F3442;
+  color: #fa9191;
 }
 
 .link:hover {
-  color: #458D2E;
+  color: #fa9191;
 }
 
 .banner {
@@ -63,7 +71,7 @@ h4, ul {text-align: left;}
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color: #fa9191;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
@@ -71,11 +79,60 @@ h4, ul {text-align: left;}
 
 .banner p {
   font-size: 20px;
-  color: white;
+  color: #fa9191;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+.footer {
+  background: #ffe9c5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
 
+
+.btn-success {
+	border: 3px solid white;
+	border-radius: 5px;
+	border-color : #fa9191;
+	color: #fa9191;
+	display: inline-block;
+	margin: 15px;
+	background: #b4f2e1;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.btn-success:hover {
+	background : #fa9191 ;
+	border-color: #fa9191;
+}
+
+
+.icons {
+	font-size: 50px;
+	color : #fa9191 ;
+}
 
 
